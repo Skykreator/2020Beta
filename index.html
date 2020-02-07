@@ -4,12 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | source</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/9b952195ab79ef94f0feaae8cbb8d8ac.js"></script>
     <script>
-      UnityLoader.instantiate("unityContainer", "Build/cce4a7f3b276cbd6e95e869d9affad27.json");
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/37eeb508a24c12d79b35c2259575a9c9.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
-    <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">source</div>
+      </div>
+    </div>
   </body>
 </html>
