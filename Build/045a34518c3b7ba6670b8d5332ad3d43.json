@@ -1,0 +1,16 @@
+{
+"companyName": "TSATeam",
+"productName": "source",
+"productVersion": "0.1",
+"dataUrl": "4984ff3f91419167a917a9845dba3e02.unityweb",
+"wasmCodeUrl": "14ea27958f2b68b570f89f06cc648ca3.unityweb",
+"wasmFrameworkUrl": "3396f1dc2710cf5a83f0331cb8df4c69.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#7D3849",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.14f1"
+}
