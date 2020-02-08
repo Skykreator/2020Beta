@@ -3,7 +3,7 @@
 "productName": "source",
 "productVersion": "0.1",
 "dataUrl": "2020Beta.data.unityweb",
-"wasmCodeUrl": "2020Beta.wasm.code.unityweb",
+"wasmCodeUrl": "2020Beta.wasm",
 "wasmFrameworkUrl": "2020Beta.wasm.framework.unityweb",
 "graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
