@@ -10,7 +10,7 @@
 "splashScreenStyle": "Dark",
 "backgroundColor": "#7D3849",
 "cacheControl": {"default": "must-revalidate"},
-"developmentBuild": true,
+"developmentBuild": false,
 "multithreading": false,
 "unityVersion": "2019.2.14f1"
 }
